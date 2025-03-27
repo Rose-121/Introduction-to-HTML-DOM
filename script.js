@@ -15,7 +15,7 @@ function validate(e) {
     message = "Please Enter an Email";
     msgBox.style.color = "red";
   } else if (pass === "") {
-    message = "Password must nbe =atleast 8 charecter";
+    message = "Password must be = atleast 8 charecter";
     msgBox.style.color = "red";
   } else if (age === "") {
     message = "Age must be Between 12 - 50";
